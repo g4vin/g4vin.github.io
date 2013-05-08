@@ -1,0 +1,6 @@
+﻿http://computoid.com/index.html
+http://computoid.com/error.html
+http://computoid.com/cs/index.html
+http://computoid.com/cs/settings.html
+http://computoid.com/cs/history.html
+http://computoid.com/tf2/index.html
