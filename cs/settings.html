@@ -98,15 +98,18 @@
 						Maybe in a later guide I'll provide instructions for custom sprays. On the keyboard tab you can change the key for certain in game functions,
 						see later part in guide for binding in userconfig.</p>
 						
-						<p>For the mouse tab, you want mouse look enabled, mouse filter turned off, and raw input enabled mainly. Mouse filter would make you less accurate. Rawinput disables all mouse accel by
+						<p>For the mouse tab, you want mouse look enabled, mouse filter turned off, and raw input enabled mainly. Mouse filter would make you lcess accurate. Rawinput disables all mouse accel by
 						default, and is most reliable form of input. I highly recommend switching if you haven't already, though you will need to rediscover your favorite sensitivity. Pros in cs use low sensitivities
-						and move there mouse with their arms not their wrists. Using a joystick puts you at a massive disadvantage against the competition. All servers disable autoaim, so don't bother leaving it on.
-						<img src="images/2013-05-26_00001.jpg" alt="Mouse settings" height="480" width="640"> </p>
-						<p>Set audio and voice to your liking based on preference.</p>
+						and move there mouse with their arms not their wrists. Using a joystick puts you at a massive disadvantage against the competition. All servers disable autoaim, so don't bother leaving it on.</p>
+						
+						<br><img src="images/2013-05-26_00001.jpg" alt="Mouse settings" height="480" width="640"> <br>
+												
 						<p>Now for video settings. OpenGL should always be the renderer, as software mode looks terrible. D3D is no longer a choice in the new cs, as it was buggy, and made making wallhacks easy.
-						CS was designed for lower resolutions,so I recommend playing at either 1024 x 768, 800 x 600, or 640 x 480. I use 800 x 600. Recoil will be the same at any resolution as it is serverside.
-						<img src="images/2013-05-26_00002.jpg" alt="Mouse settings" height="480" width="640"> </p>
-						<p>Set voice to whatever you like, and not sure who actually uses the content lock, but don't mess with that</p>
+						CS was designed for lower resolutions,so I recommend playing at either 1024 x 768, 800 x 600, or 640 x 480. I use 800 x 600. Recoil will be the same at any resolution as it is serverside.</p>
+						
+						<br><img src="images/2013-05-26_00002.jpg" alt="Mouse settings" height="480" width="640"> <br>
+						
+						<p>Test audio and voice values to find what works best for you. Nothing to change on the content lock page, and no reason to change anything on it.</p>
 						<p>For much more customization, you need to create a userconfig and set launch settings as linked below</p>
                         <a name="userconfig"></a><h2>Creating a userconfig!</h2>
 
@@ -253,6 +256,19 @@
                         <p>I recommend you use rawinput, as it provides better
                         mouse movement and such than the mouse going through
                         windows. m_rawinput 1 turns this on.</p>
+						
+						<p>net_graph 3 can be used to disable your game's "performance" at the given moment. It displays mainly frames per second, ping, loss, and choke.
+						This way you can tell if you are having computer problems (fps), internet problems (ping). Loss means that you are "too slow", cl_cmdrate could be too high, not much you can do if you are getting loss,
+						usually is your internet's fault, but is not a problem. Choke means that the server is too slow, or
+						you have too high of a cl_updaterate. If choke is usually 0, but goes up a little in very busy areas, it usually is not a problem, but sometimes it means find a new server.</p>
+						
+						<p>hud_fastswitch 1 - This allows you to change weapons with a single press of any key or the scroll wheel. Change to 2 for old hud_fastswitch behavior or 0 to disable(not recommended).</p>
+						
+						<p>cl_righthand - Set to 1 is default. Some prefer it left handed or set to 0.</p>
+						
+						<p>voice_enable - Set to 0 and never hear annoying 10 year old mexicans again. Highly recommended to turn off with 0 if playing in nonsteam public games</p>
+						
+						<p>Just a few commands were listed here. Use directories such as this one for more commands. 
 
                         <a name="launch"></a> <h2>Launch settings</h2>
 
